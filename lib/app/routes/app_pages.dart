@@ -1,5 +1,7 @@
 import 'package:get/get.dart';
 
+import '../modules/addimage/bindings/addimage_binding.dart';
+import '../modules/addimage/views/addimage_view.dart';
 import '../modules/counterpage/bindings/counterpage_binding.dart';
 import '../modules/counterpage/views/counterpage_view.dart';
 import '../modules/home/bindings/home_binding.dart';
@@ -14,12 +16,12 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const INITIAL = Routes.TODO;
+  static const INITIAL = Routes.ADDIMAGE;
 
   static final routes = [
     GetPage(
       name: _Paths.HOME,
-      page: () => const HomeView(),
+      page: () => HomeView(),
       binding: HomeBinding(),
     ),
     GetPage(
@@ -34,8 +36,13 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.TODO,
-      page: () =>  TodoView(),
+      page: () => TodoView(),
       binding: TodoBinding(),
+    ),
+    GetPage(
+      name: _Paths.ADDIMAGE,
+      page: () =>  AddimageView(),
+      binding: AddimageBinding(),
     ),
   ];
 }

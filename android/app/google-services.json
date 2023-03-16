@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "738227736291",
+    "project_id": "wedbelll",
+    "storage_bucket": "wedbelll.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738227736291:android:a7c03c630ee6534bd4bfd6",
+        "android_client_info": {
+          "package_name": "com.kumaresan.get_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738227736291-sbl97hbm33m1ji6li2d363b3oi6u9gtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_p9yyJrFJSfippE5JUbjxgCfMqPoLPZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738227736291-sbl97hbm33m1ji6li2d363b3oi6u9gtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738227736291:android:885f10f294b88de1d4bfd6",
+        "android_client_info": {
+          "package_name": "com.sunrule.wedbelll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738227736291-l0hg5l0acoqgp56o3o3k32aegodlrcm2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sunrule.wedbelll",
+            "certificate_hash": "f8caf984fa712670c77afcc6026bd2d86cc9b85c"
+          }
+        },
+        {
+          "client_id": "738227736291-sbl97hbm33m1ji6li2d363b3oi6u9gtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_p9yyJrFJSfippE5JUbjxgCfMqPoLPZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738227736291-sbl97hbm33m1ji6li2d363b3oi6u9gtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738227736291:android:d73986c21a9288b5d4bfd6",
+        "android_client_info": {
+          "package_name": "com.sunrule.wedbelluser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738227736291-sbl97hbm33m1ji6li2d363b3oi6u9gtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_p9yyJrFJSfippE5JUbjxgCfMqPoLPZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738227736291-sbl97hbm33m1ji6li2d363b3oi6u9gtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

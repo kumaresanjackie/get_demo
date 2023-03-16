@@ -7,6 +7,7 @@ abstract class Routes {
   static const LOGINPAGE = _Paths.LOGINPAGE;
   static const COUNTERPAGE = _Paths.COUNTERPAGE;
   static const TODO = _Paths.TODO;
+  static const ADDIMAGE = _Paths.ADDIMAGE;
 }
 
 abstract class _Paths {
@@ -15,4 +16,5 @@ abstract class _Paths {
   static const LOGINPAGE = '/loginpage';
   static const COUNTERPAGE = '/counterpage';
   static const TODO = '/todo';
+  static const ADDIMAGE = '/addimage';
 }
