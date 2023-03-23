@@ -22,6 +22,7 @@ class TodoView extends StatelessWidget {
                 itemCount: controller.todos.length,
                 itemBuilder: (context, index) {
                   final todo = controller.todos[index];
+                  print(todo.title);
                   return ListTile(
                     title: Text(todo.title),
                     trailing: IconButton(
@@ -46,6 +47,7 @@ class TodoView extends StatelessWidget {
                     controller.add(controller.textEditingController.text);
             controller.textEditingController.clear();
                     Get.focusScope?.unfocus();
+                    var n =controller.todos;
                   },
                   icon: Icon(Icons.send)),
               contentPadding: EdgeInsets.all(20),

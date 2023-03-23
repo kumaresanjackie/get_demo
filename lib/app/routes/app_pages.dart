@@ -16,7 +16,7 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const INITIAL = Routes.ADDIMAGE;
+  static const INITIAL = Routes.TODO;
 
   static final routes = [
     GetPage(
@@ -41,7 +41,7 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.ADDIMAGE,
-      page: () =>  AddimageView(),
+      page: () => AddimageView(),
       binding: AddimageBinding(),
     ),
   ];
