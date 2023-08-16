@@ -4,9 +4,11 @@ class CounterpageController extends GetxController {
   //TODO: Implement CounterpageController
 
   final count = 0.obs;
+
   @override
   void onInit() {
     super.onInit();
+    print("initState");
   }
 
   @override
@@ -21,5 +23,11 @@ class CounterpageController extends GetxController {
 
   void increment() {
     count.value++;
+    update();
+  }
+
+  void decincrement() {
+    count.value--;
+    update();
   }
 }

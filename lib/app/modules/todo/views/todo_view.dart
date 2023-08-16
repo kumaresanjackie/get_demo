@@ -7,7 +7,7 @@ import '../controllers/todo_controller.dart';
 class TodoView extends StatelessWidget {
   TodoView({Key? key}) : super(key: key);
   final controller = Get.put(TodoController());
-
+  TextEditingController textEditingController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +35,7 @@ class TodoView extends StatelessWidget {
             ),
           ),
           TextField(
-            controller: controller.textEditingController,
+            controller:textEditingController,
             onSubmitted: (value) {},
             decoration: InputDecoration(
               border: InputBorder.none,
@@ -44,8 +44,8 @@ class TodoView extends StatelessWidget {
               hintText: 'Add Todo',
               suffixIcon: IconButton(
                   onPressed: () {
-                    controller.add(controller.textEditingController.text);
-            controller.textEditingController.clear();
+                    controller.add(textEditingController.text);
+          textEditingController.clear();
                     Get.focusScope?.unfocus();
                     var n =controller.todos;
                   },

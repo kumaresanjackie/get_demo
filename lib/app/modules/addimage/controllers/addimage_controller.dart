@@ -18,15 +18,13 @@ class AddimageController extends GetxController {
   Future<void> uploadImageToFirebaseStorage() async {
     try {
       // Open the device's image picker to select an image
-      final imagePicker =
-      ImagePicker();
-      final pickedImage = await imagePicker.pickImage(
-          source: ImageSource.gallery);
-
+      final imagePicker = ImagePicker();
+      final pickedImage =
+          await imagePicker.pickImage(source: ImageSource.gallery);
 
       // Create a reference to the image file in Firebase storage
       final firebase_storage.Reference imageRef =
-      storage.ref().child('images/${DateTime.now().toString()}');
+          storage.ref().child('images/${DateTime.now().toString()}');
 
       // Upload the image file to Firebase storage
       await imageRef.putFile(File(pickedImage!.path));

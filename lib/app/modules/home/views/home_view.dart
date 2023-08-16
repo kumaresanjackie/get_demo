@@ -6,12 +6,9 @@ import '../controllers/home_controller.dart';
 import '../isromodel_model.dart';
 
 class HomeView extends GetView<HomeController> {
-   HomeView({Key? key}) : super(key: key);
-var data = Get.put(HomeController());
+  HomeView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-data.main();
-data.fetchData();
     return Scaffold(
       appBar: AppBar(
         title: const Text('HomeView'),

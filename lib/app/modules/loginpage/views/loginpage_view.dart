@@ -25,7 +25,7 @@ class LoginpageView extends GetView<LoginpageController> {
         TextField(controller: controller.phonenumberController,),
         TextButton(onPressed: (){
           print(controlle2.count);
-          // controller.createuser();
+          controller.createuser();
         }, child: Text("Login"))
       ],),
     ));

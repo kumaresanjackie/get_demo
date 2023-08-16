@@ -14,6 +14,9 @@ class SignupController extends GetxController {
   Future<void> createuser()async{
     await FirebaseAuth.instance.createUserWithEmailAndPassword(email: emailController.text.trim(), password: passwordController.text).then((value) => Get.to(HomeView()));
   }
+  Future<void> singinemail()async{
+    await FirebaseAuth.instance.signInWithEmailAndPassword(email: emailController.text.trim(), password: passwordController.text).then((value) => Get.to(HomeView()));
+  }
   @override
   void onInit() {
     super.onInit();

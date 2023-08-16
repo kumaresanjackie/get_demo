@@ -16,7 +16,7 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const INITIAL = Routes.TODO;
+  static const INITIAL = Routes.COUNTERPAGE;
 
   static final routes = [
     GetPage(

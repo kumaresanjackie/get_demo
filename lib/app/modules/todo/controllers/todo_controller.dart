@@ -16,11 +16,6 @@ class TodoController extends GetxController {
     todos.add(Todo(title: title));
   }
 
-/*  void addFFirebase()async{
-    await FirebaseFireStore.instance.collections("Todo").doc().set({
-      "Title":textEditingController.text
-    }).then((value) => textEditingController.clear() );
-  }*/
   void remove(int index) {
     todos.removeAt(index);
   }
